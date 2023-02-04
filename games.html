@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mohamed</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/css.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="imgs/fav.png">
+</head>
+<body>
+    <button id="up"><i class="fa-solid fa-angles-up"></i></button>
+
+    <!--Start Navbar-->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+            <img class="logo" src="imgs/fav.png" alt="" />
+            </a>
+            <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#main"
+            aria-controls="main"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            >
+            <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="main">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3"  href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3" href="watch.html">Watch</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3 active" aria-current="page" href="games.html">Games</a>
+                    </li>
+<!--                     <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-2 p-lg-3" href="#">Contact</a>
+                    </li> -->
+                </ul>          
+            </div>
+        </div>
+    </nav>
+    <!--End Navbar-->
+    <div class="gameOne">
+        <div class="firstimg rb" id="firstimg">
+        </div>
+        <h2>تختار الاحمر وله الازرق</h2>
+        <h3>واحده فيها السم وواحده الترياق</h3>
+        <div class="a d-flex mt-4">
+            <a href="blue.html" id="blue" class="blue">الازرق</a>
+            <a  href="read.html" id="read" class="read">الاحمر</a>
+        </div>
+        <div class="chosepc mt-4">
+            <div class="imgShow" id="imgShow"></div>
+        </div>
+        <div class="gg" id="gg"></div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/js.js"></script>
+    </body>
+</html>
+
